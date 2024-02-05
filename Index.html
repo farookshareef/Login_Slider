@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginSlider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+
+        <div class="login-container">
+            <div class="login">
+                <form class="frm">
+                    <h2>Signin</h2>
+                    <input class="signin-uname" type="text" placeholder="Enter User Name">
+                    <input class="signin-pw" type="password" placeholder="Enter password">
+                    <button id="btn1" type="submit">Login</button>
+                    <span>forgot password ?</span>
+                </form>
+            </div>
+            <div class="register">
+                <form class="up-frm">
+                    <h2>Signup</h2>
+                    <input class="signup-uname" type="text" placeholder="Enter User Name" required autocomplete="off">
+                    <input class="signup-mail" type="email" placeholder="Enter Your Mail" required autocomplete="email">
+                    <input class="signup-pw" type="password" placeholder="Enter password" required>
+                    <input class="signup-cpw" type="password" placeholder="Conform password" required>
+                    <button id="btn2" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="signin">
+                <p>Already Have an Account ?</p>
+                <button class="button1">Signin</button>
+            </div>
+            <div class="signup">
+                <p>Don't Have an Account ?</p>
+                <button class="button2">Signup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
